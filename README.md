@@ -17,7 +17,7 @@ Welcome to our Face SDK Demos repository! Here you will find demos showcasing th
   | No.      | Demo | SDK Details |
   |------------------|------------------|------------------|
   | 1        | [Face Recognition](https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/tree/main/Recognition-Demo)    | Face Recognition for eKYC |
-  | 2        | [Face Liveness Detection](https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/tree/main/LivenessDetection-Demo)    | Face Livness Detection for eKYC |
+  | 2        | [Face Liveness Detection](https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/tree/main/LivenessDetection-Demo)    | Face Liveness Detection for eKYC |
   | 3        | [Face SDK Lite](https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/tree/main/FaceSDK-Lite-Demo)    | Face Recognition, Liveness Detection for CCTV system |
 
 ## System Requirements
