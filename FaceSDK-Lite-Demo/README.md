@@ -1,15 +1,30 @@
+<a href="https://recognito.vision" style="display: flex; align-items: center;">
+    <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/b82f5c35-09d0-4064-a252-4bcd14e22407"/>
+</a><br/>
+
 # Face SDK Lite Linux for CCTV System
+<p align="center"><img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/b120e4f1-b53b-4b7d-ad38-cd3436b8f75a" alt="face recognition" width="80%"></p>
+<p align="center"><img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/07f876cd-8f13-4101-9cf1-414683eb985a" alt="face liveness" width="80%"></p>
 
-Welcome to the Face SDK Lite for Linux designed for CCTV systems. This guide will help you set up and run the Face SDK Lite on your Ubuntu 20.04 or later system. For more detailed information, please refer to our [documentation](https://docs.recognito.vision/).
+This demo showcases the capabilities of our Face Recognition, Liveness Detection, Face Attribute Analysis Lite SDK for Linux designed for CCTV systems. For more detailed information, please refer to our [documentation](https://docs.recognito.vision/).
 
-## System Requirements
+## <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/4a0a6933-5236-4c72-ba24-306d299b2123" alt="system" width="25">  System Requirements
 
 - **Operating System:** Ubuntu 20.04 or later
-- **CPU:** 4 cores or more (Recommended: 8 cores)
-- **RAM:** 4 GB or more (Recommended: 8 GB)
-- **HDD:** 4 GB or more (Recommended: 8 GB)
+- **CPU:** 8 cores
+- **RAM:** 8 GB
+- **HDD:** 8 GB
 
-## Installation of Dependencies
+## <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/2a625f6c-c8f1-49f6-87d3-f5f1477111cf" alt="docker" width="25">  Docker
+
+    Pull the Docker image and run the container:
+    
+    ```
+    sudo docker pull recognito/facesdk-lite:latest
+    sudo docker run -it -v ./license.txt:/home/recognito_lite/license.txt -p 8001:8000 -p 7861:7860 recognito/facesdk-lite:latest [OPTION --gradio(-g), --flask(-f)]
+    ```
+
+## <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/cd7a78b3-78da-4bd0-b12d-11771ab7345b" alt="install" width="25">  Installation
 
 1. Clone this repository to your local machine:
 
@@ -28,11 +43,15 @@ Welcome to the Face SDK Lite for Linux designed for CCTV systems. This guide wil
     ./install.sh
     ```
 
-## Setting Up SDK License Key
+## <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/1c0d0786-c03f-42f2-9f9f-d9bf91778162" alt="install" width="25">  Setting Up SDK License Key
+- **Request to download facesdk-lite_engine.zip file from [here](https://drive.google.com/file/d/1oyPOvETwQYXajuTKHkZMAFfO-nR712lU/view?usp=drive_link) and unzip in demo directory**
+    ```
+    unzip facesdk-lite_engine.zip
+    ```
 
-1. Copy the 'license.txt' license file to the work directory.
-
-   For licensing, you must first provide us with the hardware ID of your machine. You can get your Hardware ID when running demos.
+- **Licensing:**
+    Copy the 'license.txt' license file to the work directory.
+    For licensing, you must first provide us with the hardware ID of your machine. You can get your Hardware ID when running demos.
 
 ## Running Demo
 
@@ -41,14 +60,6 @@ Welcome to the Face SDK Lite for Linux designed for CCTV systems. This guide wil
 
     ```
     ./run_demo.sh [OPTION --gradio(-g), --flask(-f), --help(-h)]
-    ```
-
-- **Using Docker:**
-    Pull the Docker image and run the container:
-
-    ```
-    sudo docker pull recognito/facesdk-lite:latest
-    sudo docker run -it -v ./license.txt:/home/recognito_lite/license.txt -p 8001:8000 -p 7861:7860 recognito/facesdk-lite:latest [OPTION --gradio(-g), --flask(-f)]
     ```
 
 ## Testing
