@@ -62,7 +62,8 @@ For more details and documentation, visit [https://docs.recognito.vision/](https
     You can get your Hardware ID when running demos.
       <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/82b976d3-ee16-4266-aeb0-c1e80898cfed" alt="HWID" width="80%">
 
-## Running Demo
+## <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/7ed1f28b-bb29-4c83-809c-015e2f8e38ad" alt="install" width="25">  Running Demo
+
 
 - **Flask and Gradio Demo:**
     Run the demo script with the desired options:
@@ -70,24 +71,34 @@ For more details and documentation, visit [https://docs.recognito.vision/](https
     ```
     ./run_demo.sh [OPTION --gradio(-g), --flask(-f), --help(-h)]
     ```
-## Testing
+    <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/cf9893c7-751a-42d8-a098-21ba3f3f6e8f" alt="recognition-flask" width="80%">
+    <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/6adf1ed2-a701-47c2-9a3c-2f6f82487aad" alt="recognition-gradio" width="80%">
+
+## <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/c71602a2-cdca-4214-9bef-2997765b74a2" alt="chrome" width="25">  Testing
 
 - **Flask:**
-    To test the API, you can use Postman. Here are the endpoints for testing:
-
-    - Test with image files: Send a POST request with [image1], [image2] in form-data format to `http://{xx.xx.xx.xx}:8000/api/compare_face`.
-    - Test with base64-encoded images: Send a POST request with [image1], [image2] in raw format to `http://{xx.xx.xx.xx}:8000/api/compare_face_base64`.
+    To test the API, you can use [Postman](https://www.postman.com/downloads/). Here are the endpoints for testing:
+  
+    - `http://{xx.xx.xx.xx}:8000/api/compare_face`
+    - `http://{xx.xx.xx.xx}:8000/api/compare_face_base64`
     
-    If testing in Docker container, use the URL `http://{xx.xx.xx.xx}:8001/` instead of port 8000.
+    If testing in **Docker** container, use the URL `http://{xx.xx.xx.xx}:8001/` instead of port 8000.
+
+    <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/e2e1d94e-e8c9-4839-9fa7-2f3365aafc75" alt="postman" width="90%">
 
 - **Gradio:**
-    Run `http://{xx.xx.xx.xx}:7860/` on a web browser. If testing in Docker container, use the URL `http://{xx.xx.xx.xx}:7861/` instead of port 7860.
+    Go to [http://127.0.0.1:7860/](http://127.0.0.1:7860/) on a web browser. If testing in Docker container, use the URL `http://{xx.xx.xx.xx}:7861/` instead of port 7860.
 
-## Contact Information
+    <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/1c625cdc-8074-4f49-8daa-3cdb9e667e30" alt="facerecognition-gradio" width="90%">
+
+## <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/78c5efee-15f3-4406-ab4d-13fd1182d20c" alt="contact" width="25">  Contact Us
 
 If you encounter any issues or have any questions, please feel free to contact us:
 
-- **Email:** hassan@recognito.vision
-- **WhatsApp:** +14158003112
-- **Telegram:** @recognito_vision
+<div style="display: flex; align-items: center;">
+    <a target="_blank" href="mailto:hello@recognito.vision"><img src="https://img.shields.io/badge/email-hello@recognito.vision-blue.svg?logo=gmail " alt="www.recognito.vision"></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://wa.me/+14158003112"><img src="https://img.shields.io/badge/whatsapp-recognito-blue.svg?logo=whatsapp " alt="www.recognito.vision"></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://t.me/recognito_vision"><img src="https://img.shields.io/badge/telegram-@recognito-blue.svg?logo=telegram " alt="www.recognito.vision"></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://join.slack.com/t/recognito-workspace/shared_invite/zt-2d4kscqgn-"><img src="https://img.shields.io/badge/slack-recognito-blue.svg?logo=slack " alt="www.recognito.vision"></a>
+</div>
 
