@@ -3,7 +3,7 @@
 </a><br/>
 
 # Face Recognition SDK Demo for eKYC
-<p align="center"><img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/bee8322c-029d-43e9-b78e-ace3dd40ec73" alt="face recognition" width="70%"></p>
+<p align="center"><img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/37428b06-fe7c-4537-9875-d9701a5975e8" alt="face recognition" width="80%"></p>
 
 This demo showcases the capabilities of our Face Recognition SDK, specifically tailored for Electronic Know Your Customer (eKYC) systems. With this SDK, you can perform accurate face recognition tasks on Linux platforms, enabling seamless integration into eKYC workflows.
 
@@ -45,7 +45,10 @@ For more details and documentation, visit [https://docs.recognito.vision/](https
     ```
 
 ## <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/1c0d0786-c03f-42f2-9f9f-d9bf91778162" alt="install" width="25">  Setting Up SDK License Key
-- **Download engine directory from [here](https://drive.google.com/file/d/1Y3TCnDnrG0kvqrTECff3fhN8-WxdcaO_/view?usp=drive_link) and unzip in demo directory**
+- **Request to download face-recognition_engine.zip file from [here](https://drive.google.com/file/d/1Y3TCnDnrG0kvqrTECff3fhN8-WxdcaO_/view?usp=drive_link) and unzip in demo directory**
+    ```
+    unzip face-recognition_engine.zip 
+    ```
 - **Online Licensing:**
     Set the online license key as an environment variable:
 
@@ -57,6 +60,7 @@ For more details and documentation, visit [https://docs.recognito.vision/](https
     Copy the 'license.txt' license file to the demo directory. 
     For offline licensing, you must first provide us with the hardware ID of your machine. 
     You can get your Hardware ID when running demos.
+      <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/82b976d3-ee16-4266-aeb0-c1e80898cfed" alt="HWID" width="80%">
 
 ## Running Demo
 
