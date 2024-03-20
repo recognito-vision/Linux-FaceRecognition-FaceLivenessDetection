@@ -7,7 +7,7 @@
     </a>  
 </p>
 
-# Face SDK Demos (Linux Server)
+# On-Premise Face SDK Demos (Linux Server)
 Welcome to our Face SDK Demos repository! Here you will find demos showcasing the capabilities of our on-premise Face SDKs, including face recognition, liveness detection, and face attribute analysis. Our SDK is designed to work seamlessly on Linux Server platforms and can be integrated into various systems such as eKYC solutions and CCTV systems.
 ## Features
 - **Face Recognition:** Identify and verify individuals by comparing their facial features.
