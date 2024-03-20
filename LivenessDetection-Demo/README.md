@@ -1,4 +1,8 @@
-# Face Liveness Detection Linux for eKYC
+<a href="https://recognito.vision" style="display: flex; align-items: center;">
+    <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/b82f5c35-09d0-4064-a252-4bcd14e22407"/>
+</a><br/>
+
+# Face Liveness Detection SDK Demo for eKYC
 
 Welcome to the Face Liveness Detection Linux for eKYC guide. This guide provides instructions for setting up and running the Face Liveness Detection SDK on Linux platforms, specifically tailored for Electronic Know Your Customer (eKYC) systems. For more details and documentation, visit [https://docs.recognito.vision/](https://docs.recognito.vision/).
 
