@@ -5,7 +5,7 @@
 # Face Recognition SDK Demo for eKYC
 <p align="center"><img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/37428b06-fe7c-4537-9875-d9701a5975e8" alt="face recognition" width="80%"></p>
 
-This demo showcases the capabilities of our Face Recognition SDK, specifically tailored for Electronic Know Your Customer (eKYC) systems. With this SDK, you can perform accurate face recognition tasks on Linux platforms, enabling seamless integration into eKYC workflows.
+This demo showcases the capabilities of our Face Recognition SDK with [**NIST FRVT Top 1 Face Recognition Algorithm**](https://pages.nist.gov/frvt/html/frvt11.html), specifically tailored for Electronic Know Your Customer (eKYC) systems. With this SDK, you can perform **accurate** face recognition tasks on Linux platforms, enabling seamless integration into eKYC workflows.
 
 For more details and documentation, visit [https://docs.recognito.vision/](https://docs.recognito.vision/).
 
@@ -18,13 +18,13 @@ For more details and documentation, visit [https://docs.recognito.vision/](https
 
 ## <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/2a625f6c-c8f1-49f6-87d3-f5f1477111cf" alt="docker" width="25">  Docker
 
-
   Pull the Docker image and run the container:
     
   ```
   sudo docker pull recognito/face-recognition:latest
   sudo docker run -it -e FR_LICENSE_KEY="XXXXX-XXXXX-XXXXX-XXXXX" -p 8001:8000 -p 7861:7860 recognito/face-recognition:latest [OPTION --gradio(-g), --flask(-f)]
   ```
+
 ## <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/cd7a78b3-78da-4bd0-b12d-11771ab7345b" alt="install" width="25">  Installation
 
 1. Clone this repository to your local machine:
@@ -38,15 +38,15 @@ For more details and documentation, visit [https://docs.recognito.vision/](https
    cd Face-SDK-Linux-Demos/Recognition-Demo
    ```
 
-4. Run the install.sh script to install dependencies:
+4. Run the `install.sh` script to install dependencies:
 
     ```
     ./install.sh
     ```
 
-## <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/1c0d0786-c03f-42f2-9f9f-d9bf91778162" alt="install" width="25">  Setting Up SDK License Key
+## <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/1c0d0786-c03f-42f2-9f9f-d9bf91778162" alt="install" width="25">  Setting Up SDK License Key  (Trial License Available)
 
-- **Request to download face-recognition_engine.zip file from [here](https://drive.google.com/file/d/1Y3TCnDnrG0kvqrTECff3fhN8-WxdcaO_/view?usp=drive_link) and unzip in demo directory**
+- **Request to download `face-recognition_engine.zip` file from [here](https://drive.google.com/file/d/1Y3TCnDnrG0kvqrTECff3fhN8-WxdcaO_/view?usp=drive_link) and unzip in demo directory**
     ```
     unzip face-recognition_engine.zip 
     ```
@@ -58,13 +58,13 @@ For more details and documentation, visit [https://docs.recognito.vision/](https
     ```
 
 - **Offline Licensing:**
-    Copy the 'license.txt' license file to the demo directory. 
-    For offline licensing, you must first provide us with the hardware ID of your machine. 
+    Copy the `license.txt` license file to the demo directory. 
+    For offline licensing, you must first provide us with the **Hardware ID** of your machine. 
     You can get your Hardware ID when running demos.
-      <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/82b976d3-ee16-4266-aeb0-c1e80898cfed" alt="HWID" width="80%">
+  
+  <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/82b976d3-ee16-4266-aeb0-c1e80898cfed" alt="HWID" width="80%">
 
 ## <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/7ed1f28b-bb29-4c83-809c-015e2f8e38ad" alt="install" width="25">  Running Demo
-
 
 - **Flask and Gradio Demo:**
     Run the demo script with the desired options:
@@ -88,13 +88,13 @@ For more details and documentation, visit [https://docs.recognito.vision/](https
     <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/e2e1d94e-e8c9-4839-9fa7-2f3365aafc75" alt="postman" width="90%">
 
 - **Gradio:**
-    Go to [http://127.0.0.1:7860/](http://127.0.0.1:7860/) on a web browser. If testing in Docker container, use the URL `http://{xx.xx.xx.xx}:7861/` instead of port 7860.
+    Go to [http://127.0.0.1:7860/](http://127.0.0.1:7860/) on a web browser. If testing in **Docker** container, use the URL `http://{xx.xx.xx.xx}:7861/` instead of port 7860.
 
     <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/1c625cdc-8074-4f49-8daa-3cdb9e667e30" alt="facerecognition-gradio" width="90%">
 
 ## <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/78c5efee-15f3-4406-ab4d-13fd1182d20c" alt="contact" width="25">  Contact Us
 
-If you encounter any issues or have any questions, please feel free to contact us:
+For trial license or if you encounter any issues or have any questions, please feel free to contact us:
 
 <div style="display: flex; align-items: center;">
     <a target="_blank" href="mailto:hello@recognito.vision"><img src="https://img.shields.io/badge/email-hello@recognito.vision-blue.svg?logo=gmail " alt="www.recognito.vision"></a>
