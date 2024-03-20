@@ -3,7 +3,7 @@
 </a><br/>
 <p align="center">
     <a href="https://pages.nist.gov/frvt/html/frvt11.html" target="_blank">
-        <img alt="" src="https://recognito.vision/wp-content/uploads/2024/03/NIST.png" width=80%/>
+        <img alt="" src="https://recognito.vision/wp-content/uploads/2024/03/NIST.png" width=90%/>
     </a>  
 </p>
 
