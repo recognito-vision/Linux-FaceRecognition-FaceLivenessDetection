@@ -29,11 +29,11 @@ Welcome to our Face SDK Demos repository! Here you will find demos showcasing th
   |3         | [Face SDK Lite for CCTV](https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/tree/main/FaceSDK-Lite-Demo) | recognito/facesdk-lite:latest | `sudo docker pull recognito/facesdk-lite:latest` <br> `sudo docker run -it -v ./license.txt:/home/recognito_lite/license.txt -p 8001:8000 -p 7861:7860 recognito/facesdk-lite:latest [OPTION --gradio(-g), --flask(-f)]`|[Send](mailto:hello@recognito.vision)|
 
 ## <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/c15b7c1d-346f-4b0b-ad1e-c65882b14d27" alt="list" width="25">  Face SDK Demo List
-  | No.      | Demo | SDK Details | Download Engine and Trial license |
+  | No.      | Demo | SDK Details | Download Demo (zip) and Trial license |
   |:------------------:|------------------|------------------|:------------------:|
-  | 1        | [Face Recognition](https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/tree/main/Recognition-Demo)    | Face Recognition for eKYC | [Download](https://drive.google.com/file/d/1Nwcfytl9ODIY78irjR-0Sdr5-whrkUPW/view?usp=drive_link) |
-  | 2        | [Face Liveness Detection](https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/tree/main/LivenessDetection-Demo)    | Face Liveness Detection for eKYC | [Download](https://drive.google.com/file/d/1pfhTxN3g_NCLWw_i6LLURLrx7zIFBCiy/view?usp=drive_link) |
-  | 3        | [Face SDK Lite](https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/tree/main/FaceSDK-Lite-Demo)    | Face Recognition, Liveness Detection for CCTV system | [Download](https://drive.google.com/file/d/1yAxyaFPNCRDw9aq_GHe-NxnvqoG00AVy/view?usp=drive_link) |
+  | 1        | [Face Recognition](https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/tree/main/Recognition-Demo)    | Face Recognition for eKYC | [Download](https://drive.google.com/file/d/1BCOvLmkFnZ3ACaqvwRsZ04MBnryDyrfL/view?usp=drive_link) |
+  | 2        | [Face Liveness Detection](https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/tree/main/LivenessDetection-Demo)    | Face Liveness Detection for eKYC | [Download](https://drive.google.com/file/d/1rfYRM_mL7onPhbGmG5dy0tvnzyTEcceq/view?usp=drive_link) |
+  | 3        | [Face SDK Lite](https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/tree/main/FaceSDK-Lite-Demo)    | Face Recognition, Liveness Detection for CCTV system | [Download](https://drive.google.com/file/d/1zGxv3M8DRv9Ud_dthZFz6ZoHQZRfH90e/view?usp=drive_link) |
 
 ## <img src="https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/assets/153883841/4a0a6933-5236-4c72-ba24-306d299b2123" alt="system" width="25">  System Requirements
  - **Linux OS:** Ubuntu 20.04 or later
