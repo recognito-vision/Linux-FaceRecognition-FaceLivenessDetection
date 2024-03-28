@@ -17,11 +17,11 @@ Welcome to our Face SDK Demos repository! Here you will find demos showcasing th
 - **Liveness Detection:** Determine whether a face is live or spoofed to prevent fraud in authentication processes.
 - **Face Attribute Analysis:** Extract facial attributes such as age, gender, emotion, and ethnicity from facial images for demographic analysis.
 ## Face SDK Demo List
-  | No.      | Demo | SDK Details |
-  |------------------|------------------|------------------|
-  | 1        | [Face Recognition](https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/tree/main/Recognition-Demo)    | Face Recognition for eKYC |
-  | 2        | [Face Liveness Detection](https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/tree/main/LivenessDetection-Demo)    | Face Liveness Detection for eKYC |
-  | 3        | [Face SDK Lite](https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/tree/main/FaceSDK-Lite-Demo)    | Face Recognition, Liveness Detection for CCTV system |
+  | No.      | Demo | SDK Details | Download Engine and Trial license |
+  |------------------|------------------|------------------|------------------|
+  | 1        | [Face Recognition](https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/tree/main/Recognition-Demo)    | Face Recognition for eKYC | [Download](https://drive.google.com/file/d/1Nwcfytl9ODIY78irjR-0Sdr5-whrkUPW/view?usp=drive_link) |
+  | 2        | [Face Liveness Detection](https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/tree/main/LivenessDetection-Demo)    | Face Liveness Detection for eKYC | [Download](https://drive.google.com/file/d/1pfhTxN3g_NCLWw_i6LLURLrx7zIFBCiy/view?usp=drive_link) |
+  | 3        | [Face SDK Lite](https://github.com/Recognito-Vision/Face-SDK-Linux-Demos/tree/main/FaceSDK-Lite-Demo)    | Face Recognition, Liveness Detection for CCTV system | [Download](https://drive.google.com/file/d/1yAxyaFPNCRDw9aq_GHe-NxnvqoG00AVy/view?usp=drive_link) |
 
 ## System Requirements
  - **Linux OS:** Ubuntu 20.04 or later
