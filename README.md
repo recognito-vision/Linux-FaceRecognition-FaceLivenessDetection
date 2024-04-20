@@ -11,12 +11,16 @@
 </p>
 
 # On-Premise Face Recognition, Liveness Detection, Face Attribute Analysis SDK Demo (Linux Server)
-Welcome to our Face SDK Demos repository! Here you will find demos showcasing the capabilities of our on-premise Face SDKs, including face recognition, liveness detection, and face attribute analysis. Our SDK is designed to work seamlessly on Linux Server platforms and can be integrated into various systems such as eKYC solutions and CCTV systems.
+Welcome to our Face SDK Demos repository! Here you will find demos showcasing the capabilities of our on-premise Face SDKs, including face recognition, liveness detection, and face attribute analysis. Our SDK is designed to work seamlessly on **Linux** Server platforms and can be integrated into various systems such as **eKYC** solutions and **CCTV** systems.
 
 ## <img src="https://github.com/Recognito-Vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/d0991c83-44f0-4d38-bcc8-74376ce93ded" alt="feature" width="25">  Features
 - **Face Recognition:** Identify and verify individuals by comparing their facial features.
 - **Liveness Detection:** Determine whether a face is live or spoofed to prevent fraud in authentication processes.
 - **Face Attribute Analysis:** Extract facial attributes such as age, gender, emotion, and ethnicity from facial images for demographic analysis.
+
+<p align="center"><img src="https://github.com/Recognito-Vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/37428b06-fe7c-4537-9875-d9701a5975e8" alt="face recognition" width="80%"></p>
+
+<p align="center"><img src="https://github.com/Recognito-Vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/468618e5-958e-4e00-b849-eac208c9f20b" alt="face liveness detection" width="80%"></p>
 
 ## <img src="https://github.com/Recognito-Vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/2a625f6c-c8f1-49f6-87d3-f5f1477111cf" alt="docker" width="25">  Docker
 
@@ -24,9 +28,9 @@ Welcome to our Face SDK Demos repository! Here you will find demos showcasing th
 
   | No.      | Demo | Docker Image | Commands | Request License |
   |:------------------:|------------------|------------------|------------------|:------------------:|
-  |1         | [Face Recognition for eKYC](https://github.com/Recognito-Vision/Linux-FaceRecognition-FaceLivenessDetection/tree/main/Recognition-Demo) | recognito/face-recognition:latest |`sudo docker pull recognito/face-recognition:latest`<br> `sudo docker run -it -e FR_LICENSE_KEY="XXXXX-XXXXX-XXXXX-XXXXX" -p 8001:8000 -p 7861:7860 recognito/face-recognition:latest [OPTION --gradio(-g), --flask(-f)]`| [Send](mailto:hello@recognito.vision)|
-  |2         | [Face Liveness Detection for eKYC](https://github.com/Recognito-Vision/Linux-FaceRecognition-FaceLivenessDetection/tree/main/LivenessDetection-Demo) | recognito/face-liveness:latest |`sudo docker pull recognito/face-liveness:latest` <br> `sudo docker run -it -e FL_LICENSE_KEY="XXXXX-XXXXX-XXXXX-XXXXX" -p 8001:8000 -p 7861:7860 recognito/face-liveness:latest [OPTION --gradio(-g), --flask(-f)]`|[Send](mailto:hello@recognito.vision)|
-  |3         | [Face SDK Lite for CCTV](https://github.com/Recognito-Vision/Linux-FaceRecognition-FaceLivenessDetection/tree/main/FaceSDK-Lite-Demo) | recognito/facesdk-lite:latest | `sudo docker pull recognito/facesdk-lite:latest` <br> `sudo docker run -it -v ./license.txt:/home/recognito_lite/license.txt -p 8001:8000 -p 7861:7860 recognito/facesdk-lite:latest [OPTION --gradio(-g), --flask(-f)]`|[Send](mailto:hello@recognito.vision)|
+  |1         | [Face Recognition for eKYC](https://github.com/Recognito-Vision/Linux-FaceRecognition-FaceLivenessDetection/tree/main/Recognition-Demo) | recognito/face-recognition:latest |`sudo docker pull recognito/face-recognition:latest`<br> `sudo docker run -it -e FR_LICENSE_KEY="XXXXX-XXXXX-XXXXX-XXXXX" -p 8001:8000 -p 7861:7860 recognito/face-recognition:latest [OPTION --gradio(-g), --flask(-f)]`| [Send](mailto:hassan@recognito.vision)|
+  |2         | [Face Liveness Detection for eKYC](https://github.com/Recognito-Vision/Linux-FaceRecognition-FaceLivenessDetection/tree/main/LivenessDetection-Demo) | recognito/face-liveness:latest |`sudo docker pull recognito/face-liveness:latest` <br> `sudo docker run -it -e FL_LICENSE_KEY="XXXXX-XXXXX-XXXXX-XXXXX" -p 8001:8000 -p 7861:7860 recognito/face-liveness:latest [OPTION --gradio(-g), --flask(-f)]`|[Send](mailto:hassan@recognito.vision)|
+  |3         | [Face SDK Lite for CCTV](https://github.com/Recognito-Vision/Linux-FaceRecognition-FaceLivenessDetection/tree/main/FaceSDK-Lite-Demo) | recognito/facesdk-lite:latest | `sudo docker pull recognito/facesdk-lite:latest` <br> `sudo docker run -it -v ./license.txt:/home/recognito_lite/license.txt -p 8001:8000 -p 7861:7860 recognito/facesdk-lite:latest [OPTION --gradio(-g), --flask(-f)]`|[Send](mailto:hassan@recognito.vision)|
 
 ## <img src="https://github.com/Recognito-Vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/c15b7c1d-346f-4b0b-ad1e-c65882b14d27" alt="list" width="25">  Face SDK Demo List
   | No.      | Demo | SDK Details | Download Demo (zip) and Trial license |
@@ -45,7 +49,7 @@ Welcome to our Face SDK Demos repository! Here you will find demos showcasing th
 For any questions, issues, or feature requests, please contact our support team.
 
 <div style="display: flex; align-items: center;">
-    <a target="_blank" href="mailto:hello@recognito.vision"><img src="https://img.shields.io/badge/email-hassan@recognito.vision-blue.svg?logo=gmail " alt="www.recognito.vision"></a>
+    <a target="_blank" href="mailto:hassan@recognito.vision"><img src="https://img.shields.io/badge/email-hassan@recognito.vision-blue.svg?logo=gmail " alt="www.recognito.vision"></a>
     &nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://wa.me/+14158003112"><img src="https://img.shields.io/badge/whatsapp-+14158003112-blue.svg?logo=whatsapp " alt="www.recognito.vision"></a>
     &nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://t.me/recognito_vision"><img src="https://img.shields.io/badge/telegram-@recognito__vision-blue.svg?logo=telegram " alt="www.recognito.vision"></a>
     &nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://join.slack.com/t/recognito-workspace/shared_invite/zt-2d4kscqgn-"><img src="https://img.shields.io/badge/slack-recognito__workspace-blue.svg?logo=slack " alt="www.recognito.vision"></a>
