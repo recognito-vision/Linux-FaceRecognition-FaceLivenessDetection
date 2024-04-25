@@ -8,7 +8,7 @@
 
 This demo showcases the capabilities of our Face Recognition, Liveness Detection and Face Attribute Analysis Lite SDK designed for **Real-Time** CCTV systems. 
 
-For more details and documentation, visit [https://docs.recognito.vision/](https://docs.recognito.vision/).
+For more details and documentation, visit [Recognito Product](https://github.com/Recognito-Vision/Product-List) and [https://docs.recognito.vision/](https://docs.recognito.vision/).
 
 ## <img src="https://github.com/Recognito-Vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/4a0a6933-5236-4c72-ba24-306d299b2123" alt="system" width="25">  System Requirements
 
