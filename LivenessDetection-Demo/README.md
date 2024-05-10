@@ -7,7 +7,10 @@
 
 This demo showcases the capabilities of our Face Liveness Detection SDK, specifically tailored for Electronic Know Your Customer (eKYC) systems. With this SDK, you can perform **accurate** and **deepfake detectable** face liveness detection tasks on Linux platforms, enabling seamless integration into eKYC workflows.
 
-For more details and documentation, visit [Recognito Product](https://github.com/recognito-vision/Product-List) and [https://docs.recognito.vision/](https://docs.recognito.vision/).
+Our [**Product List**](https://github.com/recognito-vision/Product-List/) for ID verification.
+
+## <img src="https://github.com/recognito-vision/.github/assets/153883841/dc7c1c3f-8269-475c-a689-cb57be36a920" alt="home" width="25">   RECOGNITO Product Documentation
+&emsp;&emsp;<a href="https://docs.recognito.vision" style="display: flex; align-items: center;"><img src="https://recognito.vision/wp-content/uploads/2024/05/book.png" style="width: 64px; margin-right: 5px;"/></a>
 
 ## <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/4a0a6933-5236-4c72-ba24-306d299b2123" alt="system" width="25">  System Requirements
 
