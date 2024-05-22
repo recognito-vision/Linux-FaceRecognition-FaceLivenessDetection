@@ -56,7 +56,7 @@ sudo docker run -it -v ./license.txt:/home/recognito_lite/license.txt -p 8001:80
     ```
 
 - **Licensing:**
-    Copy the `license.txt` license file to the demo directory.
+    Copy the `license.txt` license file received from us to the demo directory.
     For licensing, you must first provide us with the **Hardware ID** of your machine. You can get your Hardware ID when running demos.
 
     <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/fb51a192-6c3d-49a1-9a4a-f47e2bb73a6c" alt="lite-HWID" width="80%">
