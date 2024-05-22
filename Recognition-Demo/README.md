@@ -54,14 +54,14 @@ Our [**Product List**](https://github.com/recognito-vision/Product-List/) for ID
     unzip face-recognition_engine.zip 
     ```
 - **Online Licensing:**
-    Set the online license key as an environment variable:
+    Set the online license key received from us as an environment variable:
 
     ```
     export FR_LICENSE_KEY="XXXXX-XXXXX-XXXXX-XXXXX"
     ```
 
 - **Offline Licensing:**
-    Copy the `license.txt` license file to the demo directory. 
+    Copy the `license.txt` license file received from us to the demo directory. 
     For offline licensing, you must first provide us with the **Hardware ID** of your machine. 
     You can get your Hardware ID when running demos.
   
