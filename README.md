@@ -1,6 +1,13 @@
-<a href="https://recognito.vision" style="display: flex; align-items: center;">
-    <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/b82f5c35-09d0-4064-a252-4bcd14e22407"/>
-</a><br/><br/>
+<div>
+    <a href="https://recognito.vision">
+        <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/b82f5c35-09d0-4064-a252-4bcd14e22407"/>
+    </a>
+    <a href="https://trendshift.io/repositories/9612" target="_blank">
+        <img src="https://trendshift.io/api/badge/repositories/9612" alt="Recognito-Vision%2FLinux-FaceRecognition-FaceLivenessDetection" style="float: right; width: 250px; height: 55px;" width="250" height="55" align="right"/>
+    </a>
+</div>
+<br/>
+
 <p align="center">
     <img alt="" src="https://recognito.vision/wp-content/uploads/2024/03/NIST.png" width=90%/>
 </p>
@@ -11,6 +18,7 @@
 </p>
 
 # On-Premise Face Recognition, Liveness Detection, Face Attribute Analysis SDK Demo (Linux Server)
+
 Welcome to our Face SDK Demos repository! Here you will find demos showcasing the capabilities of our on-premise Face SDKs, including face recognition, liveness detection, and face attribute analysis. Our SDK is designed to work seamlessly on **Linux** Server platforms and can be integrated into various systems such as **eKYC** solutions and **CCTV** systems.
 
 Our [**Product List**](https://github.com/recognito-vision/Product-List/) for ID verification.
