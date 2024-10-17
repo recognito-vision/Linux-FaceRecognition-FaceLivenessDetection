@@ -17,6 +17,11 @@
     </a>  
 </p>
 
+#### <img src="https://github.com/user-attachments/assets/02738ad1-c779-462e-8abd-4e5caefb2cf6" alt="home" width="25">   _Great News: Try Recognito’s API on your app or website for Free_
+- Subscribe on the plan you wish in our [**API Hub**](https://rapidapi.com/organization/recognito).
+- Clone our [**Hugging Face space**](https://huggingface.co/recognito) for your IDV project setup.
+<br/>
+
 # On-Premise Face Recognition, Liveness Detection, Face Attribute Analysis SDK Demo (Linux Server)
 
 Welcome to our Face SDK Demos repository! Here you will find demos showcasing the capabilities of our on-premise Face SDKs, including face recognition, liveness detection, and face attribute analysis. Our SDK is designed to work seamlessly on **Linux** Server platforms and can be integrated into various systems such as **eKYC** solutions and **CCTV** systems.
