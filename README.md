@@ -17,7 +17,7 @@
     </a>  
 </p>
 
-#### <img src="https://github.com/user-attachments/assets/02738ad1-c779-462e-8abd-4e5caefb2cf6" alt="home" width="25">   _Great News: Try Recognito’s API on your app or website for Free_
+### <img src="https://github.com/user-attachments/assets/59da5e7c-9a2e-40c4-821b-5b1e05fb905b" alt="home" width="30">   _Great News: Try Recognito’s API on your app or website for Free_
 - Subscribe on the plan you wish in our [**API Hub**](https://rapidapi.com/organization/recognito).
 - Clone our [**Hugging Face space**](https://huggingface.co/recognito) for your IDV project setup.
 <br/>
