@@ -2,10 +2,11 @@
     <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/b82f5c35-09d0-4064-a252-4bcd14e22407"/>
 </a><br/>
 
-# Face Recognition SDK Demo for eKYC
-<p align="center"><img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/37428b06-fe7c-4537-9875-d9701a5975e8" alt="face recognition" width="80%"></p>
+# Face Identification Flask Demo for 1:N search
 
-This demo showcases the capabilities of our Face Recognition SDK with [**NIST FRVT Top 1 Face Recognition Algorithm**](https://pages.nist.gov/frvt/html/frvt11.html), specifically tailored for Electronic Know Your Customer (eKYC) systems. With this SDK, you can perform **accurate** face recognition tasks on Linux platforms, enabling seamless integration into eKYC workflows.
+<p align="center"><img src="https://github.com/user-attachments/assets/0f5d9d9d-60ab-4597-9f1a-344c20cb95fb" alt="face identification" width="80%"></p>
+
+This demo showcases the capabilities of our Face Recognition SDK with [**NIST FRVT Top 1 Face Recognition Algorithm**](https://pages.nist.gov/frvt/html/frvt11.html). With our SDK, you can perform highly accurate **Face Search and Identification** tasks on Linux platforms, enabling seamless integration into diverse identity verification workflows.
 
 Our [**Product List**](https://github.com/recognito-vision/Product-List/) for ID verification.
 
@@ -19,86 +20,55 @@ Our [**Product List**](https://github.com/recognito-vision/Product-List/) for ID
 - **RAM:** 8 GB
 - **HDD:** 8 GB
 
-## <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/2a625f6c-c8f1-49f6-87d3-f5f1477111cf" alt="docker" width="25">  Docker
+## <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/cd7a78b3-78da-4bd0-b12d-11771ab7345b" alt="install" width="25">  How run demo?
 
-  Pull the Docker image and run the container:
+1. Download the Folder from google drive to your machine.
+
+    https://drive.google.com/file/d/1-Fr79Mj6glGtcqVEXXLGwwEWG8DCffsF/view?usp=drive_link
+
+2. Create and activate virtual environoment.
+    ```
+ 	conda create -n env_name python=3.8
+	conda activate env_name
+    ```
+
+3. Copy dependency libraries to /usr/lib.
+    ```
+    sudo cp -f dependency/libimutils.so_for_ubuntu22 /usr/lib/libimutils.so
+	sudo cp -rf dependency/openvino /usr/lib
+	export LD_LIBRARY_PATH="/usr/lib/openvino:$LD_LIBRARY_PATH"
+    ```
     
-  ```
-  sudo docker pull recognito/face-recognition:latest
-  sudo docker run -it -e FR_LICENSE_KEY="XXXXX-XXXXX-XXXXX-XXXXX" -p 8001:8000 -p 7861:7860 recognito/face-recognition:latest [OPTION --gradio(-g), --flask(-f)]
-  ```
-
-## <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/cd7a78b3-78da-4bd0-b12d-11771ab7345b" alt="install" width="25">  Installation
-
-1. Clone this repository to your local machine:
-
+4. Install all the dependencies.
     ```
-    git clone https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection.git
+	pip install -r requirements.txt
     ```
-
-2. Navigate to the directory of the SDK demo.
-   ```
-   cd Linux-FaceRecognition-FaceLivenessDetection/Recognition-Demo
-   ```
-
-4. Run the `install.sh` script to install dependencies:
-
+	
+5. Run Qdrant server.
     ```
-    ./install.sh
+	sudo docker run --network="host" -v ./database:/qdrant/storage qdrant/qdrant:latest
+    ```
+	
+6. Activate SDK with license
+    ```
+	export FR_LICENSE_KEY="xxxxx-xxxxx-xxxxx-xxxxx"
+    ```
+	
+7. Run the web app.
+    ```
+	python app.py
     ```
 
-## <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/1c0d0786-c03f-42f2-9f9f-d9bf91778162" alt="install" width="25">  Setting Up SDK License Key  (Trial License Available)
+8. Visit the http://127.0.0.1:9000 to view the web app
 
-- **Request to download `face-recognition_engine.zip` file from [here](https://drive.google.com/file/d/1Nwcfytl9ODIY78irjR-0Sdr5-whrkUPW/view?usp=drive_link) and unzip in demo directory**
-    ```
-    unzip face-recognition_engine.zip 
-    ```
-- **Online Licensing:**
-    Set the online license key received from us as an environment variable:
 
-    ```
-    export FR_LICENSE_KEY="XXXXX-XXXXX-XXXXX-XXXXX"
-    ```
+## <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/7ed1f28b-bb29-4c83-809c-015e2f8e38ad" alt="install" width="25">  How demo works?
+![screen01](https://github.com/user-attachments/assets/535d6a37-06f4-4dc7-9e0b-8fea3fbf06ed)
+![screen02](https://github.com/user-attachments/assets/7a72f08b-48b4-4307-8d8a-f54edeb8c986)
+![screen05](https://github.com/user-attachments/assets/49a5169b-2889-48d1-b4b2-da75d24ef985)
+![screen03](https://github.com/user-attachments/assets/3754aac0-2129-4d2a-b8e9-36b04385177a)
+![screen04](https://github.com/user-attachments/assets/5716a180-e09e-4800-b92b-e45ff953e60f)
 
-- **Offline Licensing:**
-    Copy the `license.txt` license file received from us to the demo directory. 
-    For offline licensing, you must first provide us with the **Hardware ID** of your machine. 
-    You can get your Hardware ID when running demos.
-  
-  <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/82b976d3-ee16-4266-aeb0-c1e80898cfed" alt="HWID" width="80%"><br/>
-  <div style="display: flex; align-items: center;">
-    <a target="_blank" href="mailto:hassan@recognito.vision"><img src="https://img.shields.io/badge/email-hassan@recognito.vision-blue.svg?logo=gmail " alt="www.recognito.vision"></a>
-    &nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://wa.me/+14158003112"><img src="https://img.shields.io/badge/whatsapp-+14158003112-blue.svg?logo=whatsapp " alt="www.recognito.vision"></a>
-    &nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://t.me/recognito_vision"><img src="https://img.shields.io/badge/telegram-@recognito__vision-blue.svg?logo=telegram " alt="www.recognito.vision"></a>
-    &nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://join.slack.com/t/recognito-workspace/shared_invite/zt-2d4kscqgn-"><img src="https://img.shields.io/badge/slack-recognito__workspace-blue.svg?logo=slack " alt="www.recognito.vision"></a>
-  </div>
-## <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/7ed1f28b-bb29-4c83-809c-015e2f8e38ad" alt="install" width="25">  Running Demo
-
-- **Flask and Gradio Demo:**
-    Run the demo script with the desired options:
-
-    ```
-    ./run_demo.sh [OPTION --gradio(-g), --flask(-f), --help(-h)]
-    ```
-    <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/cf9893c7-751a-42d8-a098-21ba3f3f6e8f" alt="recognition-flask" width="80%">
-    <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/6adf1ed2-a701-47c2-9a3c-2f6f82487aad" alt="recognition-gradio" width="80%">
-
-## <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/c71602a2-cdca-4214-9bef-2997765b74a2" alt="chrome" width="25">  Testing
-
-- **Flask:**
-    To test the API, you can use [Postman](https://www.postman.com/downloads/). Here are the endpoints for testing:
-  
-    - `http://{xx.xx.xx.xx}:8000/api/compare_face`
-    - `http://{xx.xx.xx.xx}:8000/api/compare_face_base64`
-    
-    If testing in **Docker** container, use the URL `http://{xx.xx.xx.xx}:8001/` instead of port 8000.
-
-    <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/e2e1d94e-e8c9-4839-9fa7-2f3365aafc75" alt="postman" width="90%">
-
-- **Gradio:**
-    Go to [http://127.0.0.1:7860/](http://127.0.0.1:7860/) on a web browser. If testing in **Docker** container, use the URL `http://{xx.xx.xx.xx}:7861/` instead of port 7860.
-
-    <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/1c625cdc-8074-4f49-8daa-3cdb9e667e30" alt="facerecognition-gradio" width="90%">
 
 ## <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/78c5efee-15f3-4406-ab4d-13fd1182d20c" alt="contact" width="25">  Contact Us
 
