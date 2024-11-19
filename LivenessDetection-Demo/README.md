@@ -82,8 +82,9 @@ Our [**Product List**](https://github.com/recognito-vision/Product-List/) for ID
     ```
     ./run_demo.sh [OPTION --gradio(-g), --flask(-f), --help(-h)]
     ```
-    <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/51091e4c-79ea-4e5e-8b6b-1f6d8e34f665" alt="liveness-flask" width="80%">
-    <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/af932c59-4f9d-471e-80af-d38cad483391" alt="liveness-gradio" width="80%">
+
+    <img src="https://github.com/user-attachments/assets/5c7718f9-c51a-437a-aa68-3a93c7a0c67e" alt="liveness-flask" width="80%">
+    <img src="https://github.com/user-attachments/assets/93e29c60-7516-46e4-8a73-00fda1e0e77d" alt="liveness-gradio" width="80%">
 
 ## <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/c71602a2-cdca-4214-9bef-2997765b74a2" alt="chrome" width="25">  Testing
 
