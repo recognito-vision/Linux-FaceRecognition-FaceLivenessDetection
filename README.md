@@ -62,7 +62,7 @@ Our [**Product List**](https://github.com/recognito-vision/Product-List/) for ID
   | 1        | [Face SDK Lite](https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/tree/main/FaceSDK-Lite-Demo)    | Face Recognition, Liveness Detection for CCTV system | [Download](https://drive.google.com/file/d/1pRSvJM2wVyH2rrvBq_276y4QgaIFAWir/view?usp=drive_link) | [Installation](https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/tree/main/FaceSDK-Lite-Demo)   |
 
 ## <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/4a0a6933-5236-4c72-ba24-306d299b2123" alt="system" width="25">  System Requirements
- - **Linux OS:** Ubuntu 20.04 or later
+ - **Linux OS:** Ubuntu 20.04 or 22.04
  - **CPU:** 8 cores
  - **RAM:** 8 GB
  - **HDD:** 8 GB
