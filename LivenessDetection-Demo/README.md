@@ -14,7 +14,7 @@ Our [**Product List**](https://github.com/recognito-vision/Product-List/) for ID
 
 ## <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/4a0a6933-5236-4c72-ba24-306d299b2123" alt="system" width="25">  System Requirements
 
-- **Operating System:** Ubuntu 20.04 or later
+- **Operating System:** Ubuntu 20.04 or 22.04
 - **CPU:** 8 cores
 - **RAM:** 8 GB
 - **HDD:** 8 GB
