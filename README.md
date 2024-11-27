@@ -18,7 +18,7 @@
 </p>
 
 ### <img src="https://github.com/user-attachments/assets/59da5e7c-9a2e-40c4-821b-5b1e05fb905b" alt="home" width="30"> _Recognito Developer News_
-- Global Coverage [**ID Document Recognition Server Demo**](https://github.com/recognito-vision/Linux-ID-Document-Recognition), [**ID Card/Passport OCR Mobile Demo**](https://github.com/recognito-vision/Android-ID-Document-Recognition/tree/main).
+- Global Coverage [**ID Document Recognition Server Demo**](https://github.com/recognito-vision/Linux-ID-Document-Recognition) and [**ID Card/Passport OCR Mobile Demo**](https://github.com/recognito-vision/Android-ID-Document-Recognition/tree/main).
 - Try **1:N Face Search** through our [**Face Identification Web Demo**](https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/tree/main/Identification(1%3AN)-Demo).
 - Subscribe our **Free APIs** for your app or website from our [**API Hub**](https://rapidapi.com/organization/recognito).
 <!--- Clone our [**Hugging Face space**](https://huggingface.co/recognito) for your IDV project setup.-->
