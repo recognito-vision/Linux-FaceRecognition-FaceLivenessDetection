@@ -3,7 +3,7 @@
 </a><br/>
 
 # Face Liveness Detection SDK Demo for eKYC
-<p align="center"><img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/468618e5-958e-4e00-b849-eac208c9f20b" alt="face liveness detection" width="80%"></p>
+<p align="center"><img src="https://github.com/user-attachments/assets/2d2f4f9c-a4a7-4343-8fc0-0c2be375d733" alt="face liveness detection" width="80%"></p>
 
 This demo showcases the capabilities of our Face Liveness Detection SDK, specifically tailored for Electronic Know Your Customer (eKYC) systems. With this SDK, you can perform **accurate** and **deepfake detectable** face liveness detection tasks on Linux platforms, enabling seamless integration into eKYC workflows.
 
@@ -24,8 +24,8 @@ Our [**Product List**](https://github.com/recognito-vision/Product-List/) for ID
   Pull the Docker image and run the container:
     
   ```
-  sudo docker pull recognito/face-liveness:latest
-  sudo docker run -it -e FL_LICENSE_KEY="XXXXX-XXXXX-XXXXX-XXXXX" -p 8001:8000 -p 7861:7860 recognito/face-liveness:latest [OPTION --gradio(-g), --flask(-f)]
+  sudo docker pull recognito/face-liveness_v7:latest
+  sudo docker run -it -e FL_LICENSE_KEY="XXXXX-XXXXX-XXXXX-XXXXX" -p 8001:8000 -p 7861:7860 recognito/face-liveness_v7:latest [OPTION --gradio(-g), --flask(-f)]
   ```
 
 ## <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/cd7a78b3-78da-4bd0-b12d-11771ab7345b" alt="install" width="25">  Installation
@@ -49,7 +49,7 @@ Our [**Product List**](https://github.com/recognito-vision/Product-List/) for ID
 
 ## <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/1c0d0786-c03f-42f2-9f9f-d9bf91778162" alt="install" width="25">  Setting Up SDK License Key  (Trial License Available)
 
-- **Request to download `face-liveness_engine.zip` file from [here](https://drive.google.com/file/d/1pfhTxN3g_NCLWw_i6LLURLrx7zIFBCiy/view?usp=drive_link) and unzip in demo directory**
+- **Request to download `face-liveness_engine.zip` file from [here](https://drive.google.com/file/d/1pz1pUYIx8NS8OTFRmzU_dvScL4SApNBR/view?usp=drive_link) and unzip in demo directory**
     ```
     unzip face-liveness_engine.zip 
     ```
@@ -65,8 +65,8 @@ Our [**Product List**](https://github.com/recognito-vision/Product-List/) for ID
     For offline licensing, you must first provide us with the **Hardware ID** of your machine. 
     You can get your Hardware ID when running demos.
   
-  <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/36a0b4ef-0ecc-49e6-af2c-29da86e41056" alt="HWID" width="80%"><br/>
-  
+  <img src="https://github.com/user-attachments/assets/067cd85f-9f80-4ab4-a027-7ea6d9000997" alt="HWID" width="80%"><br/>
+
   <div style="display: flex; align-items: center;">
         &nbsp;<a target="_blank" href="mailto:hassan@recognito.vision"><img src="https://img.shields.io/badge/email-hassan@recognito.vision-blue.svg?logo=gmail " alt="www.recognito.vision"></a>
         &nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://wa.me/+14158003112"><img src="https://img.shields.io/badge/whatsapp-+14158003112-blue.svg?logo=whatsapp " alt="www.recognito.vision"></a>
@@ -83,8 +83,8 @@ Our [**Product List**](https://github.com/recognito-vision/Product-List/) for ID
     ./run_demo.sh [OPTION --gradio(-g), --flask(-f), --help(-h)]
     ```
 
-    <img src="https://github.com/user-attachments/assets/5c7718f9-c51a-437a-aa68-3a93c7a0c67e" alt="liveness-flask" width="80%">
-    <img src="https://github.com/user-attachments/assets/93e29c60-7516-46e4-8a73-00fda1e0e77d" alt="liveness-gradio" width="80%">
+    <img src="https://github.com/user-attachments/assets/16463504-92a9-439e-94ac-00eeea982219" alt="liveness-flask" width="80%">
+    <img src="https://github.com/user-attachments/assets/fb2889eb-875b-479a-9f46-361c6b8ed67d" alt="liveness-gradio" width="80%">
 
 ## <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/c71602a2-cdca-4214-9bef-2997765b74a2" alt="chrome" width="25">  Testing
 
@@ -101,7 +101,7 @@ Our [**Product List**](https://github.com/recognito-vision/Product-List/) for ID
 - **Gradio:**
     Go to [http://127.0.0.1:7860/](http://127.0.0.1:7860/) on a web browser. If testing in **Docker** container, use the URL `http://{xx.xx.xx.xx}:7861/` instead of port 7860.
 
-  <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/52238e52-73bf-4031-bfca-f71fb99c56a2" alt="faceliveness-gradio" width="90%">
+  <img src="https://github.com/user-attachments/assets/656fcac5-db80-4a3a-8636-3a08859c0774" alt="faceliveness-gradio" width="90%">
 
 ## <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/78c5efee-15f3-4406-ab4d-13fd1182d20c" alt="contact" width="25">  Contact Us
 
