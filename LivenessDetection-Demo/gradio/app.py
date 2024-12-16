@@ -27,7 +27,7 @@ device_id = get_deviceid().decode('utf-8')
 print_info('\t <Hardware ID> \t\t {}'.format(device_id))
 
 g_activation_result = -1
-SPOOF_THRESHOLD = 0
+SPOOF_THRESHOLD = 0.5
 
 css = """
 .example-image img{
@@ -290,11 +290,8 @@ def launch_demo(activate_result):
                                     os.path.join(root_path,'examples/att_3.jpg'), 
                                     os.path.join(root_path,'examples/att_4.jpg'), 
                                     os.path.join(root_path,'examples/att_5.jpg'), 
-                                    os.path.join(root_path,'examples/att_6.jpg'), 
-                                    os.path.join(root_path,'examples/att_7.jpg'), 
-                                    os.path.join(root_path,'examples/att_8.jpg'), 
-                                    os.path.join(root_path,'examples/att_9.jpg'), 
-                                    os.path.join(root_path,'examples/att_10.jpg')], 
+                                    os.path.join(root_path,'examples/att_6.jpg'),  
+                                    os.path.join(root_path,'examples/att_7.jpg')], 
                                     inputs=face_input)
 
             with gr.Blocks():

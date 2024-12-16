@@ -21,7 +21,7 @@ file_path = os.path.abspath(__file__)
 dir_path = os.path.dirname(file_path)
 root_path = os.path.dirname(dir_path)
 
-SPOOF_THRESHOLD = 0
+SPOOF_THRESHOLD = 0.5
 
 app = Flask(__name__) 
 app.config['SITE'] = "http://0.0.0.0:8000/"
