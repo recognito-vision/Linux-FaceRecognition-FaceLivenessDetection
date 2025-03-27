@@ -34,33 +34,33 @@ Our [**Product List**](https://github.com/recognito-vision/Product-List/) for ID
 
 4. Copy dependency libraries to /usr/lib.
     ```
-    	sudo cp -f dependency/libimutils.so /usr/lib/libimutils.so
+    sudo cp -f dependency/libimutils.so /usr/lib/libimutils.so
 	sudo cp -rf dependency/openvino /usr/lib
 	export LD_LIBRARY_PATH="/usr/lib/openvino:$LD_LIBRARY_PATH"
     ```
     
-5. Install requirements
+6. Install requirements
     ```
 	pip install -r requirements.txt
     ```
 	
-6. Run Qdrant server.
+7. Run Qdrant server.
     ```
 	sudo docker run --network="host" -v ./database:/qdrant/storage qdrant/qdrant:latest
     ```
 	
-7. Activate SDK with license
+8. Activate SDK with license
     ```
 	export FR_LICENSE_KEY="xxxxx-xxxxx-xxxxx-xxxxx"
     ```
 	
-8. Run the web app.
+9. Run the web app.
     ```
 	python3 app.py
     ```
 
-9. Visit the http://127.0.0.1:9000 to view the web app
-10. Qdrant Web UI http://127.0.0.1:6333/dashboard
+10. Visit the http://127.0.0.1:9000 to view the web app
+11. Qdrant Web UI http://127.0.0.1:6333/dashboard
 
 
 ## <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/7ed1f28b-bb29-4c83-809c-015e2f8e38ad" alt="install" width="25">  How demo works?
