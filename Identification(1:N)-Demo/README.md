@@ -26,40 +26,41 @@ Our [**Product List**](https://github.com/recognito-vision/Product-List/) for ID
 
     https://drive.google.com/file/d/1-Fr79Mj6glGtcqVEXXLGwwEWG8DCffsF/view?usp=drive_link
 
-2. Create and activate virtual environoment.
-    ```
- 	conda create -n env_name python=3.8
-	conda activate env_name
-    ```
+2. Install packages
+   ```
+ 	sudo apt-get update -y && sudo apt-get install -y python3 python3-pip python3-opencv libcurl4-openssl-dev libssl-dev libtbb-dev
+	python3 -m pip install --upgrade pip && python3 -m pip install opencv-python 
+   ```
 
-3. Copy dependency libraries to /usr/lib.
+4. Copy dependency libraries to /usr/lib.
     ```
-    sudo cp -f dependency/libimutils.so_for_ubuntu22 /usr/lib/libimutils.so
+    	sudo cp -f dependency/libimutils.so /usr/lib/libimutils.so
 	sudo cp -rf dependency/openvino /usr/lib
 	export LD_LIBRARY_PATH="/usr/lib/openvino:$LD_LIBRARY_PATH"
     ```
     
-4. Install all the dependencies.
+5. Install requirements
     ```
 	pip install -r requirements.txt
     ```
 	
-5. Run Qdrant server.
+6. Run Qdrant server.
     ```
 	sudo docker run --network="host" -v ./database:/qdrant/storage qdrant/qdrant:latest
     ```
 	
-6. Activate SDK with license
+7. Activate SDK with license
     ```
 	export FR_LICENSE_KEY="xxxxx-xxxxx-xxxxx-xxxxx"
     ```
 	
-7. Run the web app.
+8. Run the web app.
     ```
-	python app.py
+	python3 app.py
     ```
 
-8. Visit the http://127.0.0.1:9000 to view the web app
+9. Visit the http://127.0.0.1:9000 to view the web app
+10. Qdrant Web UI http://127.0.0.1:6333/dashboard
 
 
 ## <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/7ed1f28b-bb29-4c83-809c-015e2f8e38ad" alt="install" width="25">  How demo works?
