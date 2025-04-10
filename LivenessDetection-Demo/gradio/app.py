@@ -176,12 +176,13 @@ def check_liveness_clicked(frame, threshold):
             if y2 >= image.height:
                 y2 = image.height - 1
 
-            face_crop = image.crop((x1, y1, x2, y2))
-            face_image_ratio = face_crop.width / float(face_crop.height)
-            resized_w = int(face_image_ratio * 150)
-            resized_h = 150
+            if (x2 - x1) != 0 and (y2 - y1) != 0:    
+                face_crop = image.crop((x1, y1, x2, y2))
+                face_image_ratio = face_crop.width / float(face_crop.height)
+                resized_w = int(face_image_ratio * 150)
+                resized_h = 150
 
-            face_crop = face_crop.resize((int(resized_w), int(resized_h)))
+                face_crop = face_crop.resize((int(resized_w), int(resized_h)))
 
         if angles is not None:
             yaw = angles[0]
