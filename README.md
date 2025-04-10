@@ -17,7 +17,8 @@
     </a>  
 </p>
 
-### <img src="https://github.com/user-attachments/assets/59da5e7c-9a2e-40c4-821b-5b1e05fb905b" alt="home" width="30"> _Recognito Developer News_
+### 📰 _Recognito Developer News_
+- <img src="https://github.com/user-attachments/assets/59da5e7c-9a2e-40c4-821b-5b1e05fb905b" alt="home" width="30"> 1:1 & 1:N [**Windows .NET Demo for Face Recognition, Liveness Detection**](https://github.com/recognito-vision/FaceRecognition-LivenessDetection-CSharp-.Net).
 - Global Coverage [**ID Card/Passport OCR Mobile Demo**](https://github.com/recognito-vision/Android-ID-Document-Recognition/tree/main) and [**ID Document Recognition Server Demo**](https://github.com/recognito-vision/Linux-ID-Document-Recognition).
 - Try **1:N Face Search** through our [**Face Identification Web Demo**](https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/tree/main/Identification(1%3AN)-Demo).
 - Subscribe our **Free APIs** for your app or website from our [**API Hub**](https://rapidapi.com/organization/recognito).
@@ -60,7 +61,7 @@ Our [**Product List**](https://github.com/recognito-vision/Product-List/) for ID
   | 1        | [Face Recognition](https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/tree/main/Recognition-Demo)    | Face Recognition for eKYC | [Download](https://drive.google.com/file/d/1vZu085YimHuqvGA0dIXbyIZTjYndGfeT/view?usp=drive_link) | [Installation](https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/tree/main/Recognition-Demo)    |
   | 2        | [Face Identification](https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/tree/main/Identification(1%3AN)-Demo)    | Face Identification for 1:N Search | [Download](https://drive.google.com/file/d/1-Fr79Mj6glGtcqVEXXLGwwEWG8DCffsF/view?usp=drive_link) | [Installation](https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/tree/main/Identification(1%3AN)-Demo)    |
   | 3        | [Face Liveness Detection](https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/tree/main/LivenessDetection-Demo)    | Face Liveness Detection for eKYC | [Download](https://drive.google.com/file/d/1IM8NcJwYyBOQIqKcNVqWtpSca0hpsbpa/view?usp=drive_link) | [Installation](https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/tree/main/LivenessDetection-Demo) |
-  | 1        | [Face SDK Lite](https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/tree/main/FaceSDK-Lite-Demo)    | Face Recognition, Liveness Detection for CCTV system | [Download](https://drive.google.com/file/d/1pRSvJM2wVyH2rrvBq_276y4QgaIFAWir/view?usp=drive_link) | [Installation](https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/tree/main/FaceSDK-Lite-Demo)   |
+  | 4        | [Face SDK Lite](https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/tree/main/FaceSDK-Lite-Demo)    | Face Recognition, Liveness Detection for CCTV system | [Download](https://drive.google.com/file/d/1pRSvJM2wVyH2rrvBq_276y4QgaIFAWir/view?usp=drive_link) | [Installation](https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/tree/main/FaceSDK-Lite-Demo)   |
 
 ## <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/4a0a6933-5236-4c72-ba24-306d299b2123" alt="system" width="25">  System Requirements
  - **Linux OS:** Ubuntu 20.04 or 22.04
