@@ -146,7 +146,11 @@ def compare_face_clicked(frame1, frame2, threshold):
         faces = [face1, face2]
 
         face_bboxes_result = []
-        if face_bboxes is not None:
+
+        if face_bboxes is None:
+            gr.Warning(result)
+            return None, None, None, None, None, None, None, None, None
+        else:
             for i, bbox in enumerate(face_bboxes):
                 x1 = bbox[0]
                 y1 = bbox[1]
@@ -175,16 +179,16 @@ def compare_face_clicked(frame1, frame2, threshold):
         
     matching_result = Image.open(os.path.join(gradio_path, "icons/blank.png"))
     similarity_score = ""
-    if faces[0] is not None and faces[1] is not None:
-        if score is not None:
-            str_score = str("{:.4f}".format(score))
-            if result == "SAME PERSON":
-                matching_result = Image.open(os.path.join(gradio_path, "icons/same.png"))
-                similarity_score = f"""<br/><div class="markdown-success-container"><p style="text-align: center; font-size: 20px; color: green;">Similarity score: {str_score}</p></div>"""
-            else:
-                matching_result = Image.open(os.path.join(gradio_path, "icons/different.png"))
-                similarity_score = f"""<br/><div class="markdown-fail-container"><p style="text-align: center; font-size: 20px; color: red;">Similarity score: {str_score}</p></div>"""
-    
+
+    if score is not None:
+        str_score = str("{:.4f}".format(score))
+        if result == "SAME PERSON":
+            matching_result = Image.open(os.path.join(gradio_path, "icons/same.png"))
+            similarity_score = f"""<br/><div class="markdown-success-container"><p style="text-align: center; font-size: 20px; color: green;">Similarity score: {str_score}</p></div>"""
+        else:
+            matching_result = Image.open(os.path.join(gradio_path, "icons/different.png"))
+            similarity_score = f"""<br/><div class="markdown-fail-container"><p style="text-align: center; font-size: 20px; color: red;">Similarity score: {str_score}</p></div>"""
+
     return faces[0], faces[1], matching_result, similarity_score, face_bboxes_result[0], face_bboxes_result[1], face_features[0], face_features[1], str(process_time)
 
 def launch_demo(activate_result):
