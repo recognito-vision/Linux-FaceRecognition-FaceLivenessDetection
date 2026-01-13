@@ -50,7 +50,7 @@ sudo docker run -it -v ./license.txt:/home/recognito_lite/license.txt -p 8001:80
 
 ## <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/1c0d0786-c03f-42f2-9f9f-d9bf91778162" alt="install" width="25">  Setting Up SDK License Key  (Trial License Available)
 
-- **Request to download `facesdk-lite_engine.zip` file from [here](https://drive.google.com/file/d/1yAxyaFPNCRDw9aq_GHe-NxnvqoG00AVy/view?usp=drive_link) and unzip in demo directory**
+- **Request to download `facesdk-lite_engine.zip` file from [here](https://www.dropbox.com/scl/fi/idm2ea8pusggahso913ti/facesdk-lite_engine.zip?rlkey=6v89128he4hfzd86exvijtklk&st=zo7jf0jw&dl=0) and unzip in demo directory**
     ```
     unzip facesdk-lite_engine.zip
     ```
