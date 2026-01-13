@@ -22,9 +22,9 @@ Our [**Product List**](https://github.com/recognito-vision/Product-List/) for ID
 
 ## <img src="https://github.com/recognito-vision/Linux-FaceRecognition-FaceLivenessDetection/assets/153883841/cd7a78b3-78da-4bd0-b12d-11771ab7345b" alt="install" width="25">  How run demo?
 
-1. Download the Folder from google drive to your machine.
+1. Download the Folder from drive to your machine.
 
-    https://drive.google.com/file/d/1-Fr79Mj6glGtcqVEXXLGwwEWG8DCffsF/view?usp=drive_link
+    https://www.dropbox.com/scl/fi/jivy1bq3o4oxfiwahhu0a/Face-Identification.zip?rlkey=t2jfwmacfuwu8v66u326k4hfx&st=f0ogiayf&dl=0
 
 2. Install packages
    ```
