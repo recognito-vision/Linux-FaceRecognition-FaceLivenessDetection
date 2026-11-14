@@ -24,7 +24,7 @@ Our [**Product List**](https://github.com/recognito-vision/Product-List/) for ID
 
 1. Download the Folder from drive to your machine.
 
-    https://www.dropbox.com/scl/fi/9rhmqmprz0qy12fxvdlu7/Face-Identification.zip?rlkey=ehakx0l87gyx5ck40j37hzlke&st=py69kayy&dl=0
+    https://drive.google.com/file/d/1WVlLZnTYjbs2EcS7nzcLYxblGUMs1XmM/view?usp=drive_link
 
 2. Install packages
    ```
